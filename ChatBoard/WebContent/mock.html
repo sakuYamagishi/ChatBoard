@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<META CHARSET="UTF-8">
+	<title>mockup</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	
+	<div id="global-nav">
+		
+	</div>	
+
+	<div id="main-container">
+
+		<div id="left-side">
+			<ul id="side-thread-list">
+				<li class="thread-item"><a href="#">thread001001</a></li>
+				<li class="thread-item"><a href="#">thread001002</a></li>
+				<li class="thread-item"><a href="#">thread001003</a></li>
+			</ul>
+		</div>
+		
+		<div id="center">
+			<dl class="thread">
+				<dt>1:Name:2015/05/30(土) 00:03:23.036</dt>
+				<dd>
+					IDの数だけガーンナさんの金髪縦ロールびよんびよんする 
+					<br>
+				</dd>
+				<dt>2:Name:2015/05/30(土) 00:03:23.036</dt>
+				<dd>
+					IDの数だけ恵まれない乞食ちゃん達にふかパンを支給する  
+					<br>
+				</dd>
+				<dt>3:Name:2015/05/30(土) 00:03:23.036</dt>
+				<dd>
+					ID人数のお兄ちゃんのPCから 
+					<br>
+					妹がお兄ちゃんを求めて画面から飛び出てきた！ 
+					<br>
+					もう逃げられない！ 
+					<br>
+				</dd>
+			</dl>
+
+			<div id="pager">
+				<ul>
+				<li><a href="#">aaaaaaaaaa</a></li>
+				<li><a href="#">&#x3C;&#x3C;</a></li>
+				<li><a href="#">&#x3E;&#x3E;</a></li>
+				<li><a href="#">1000</a></li>
+				</ul>
+			</div>
+			<form id="res-box" method="POST" action="./ResPost.jsp">
+				<input type="hidden" name="thread_id" value="th000000">
+				<input type="hidden" name="res_number" value="1">
+				<input type="submit" name="submit" value="書き込む">
+				<input type="text" name="usr_name" value="name">
+				<br>
+				<textarea name="message" rows="5" cols="64"> </textarea>
+			</form>
+		</div>
+		
+		<div id="null-box"></div>
+	</div>
+</body>
+
+</html>
+
+
+

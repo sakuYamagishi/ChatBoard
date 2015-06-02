@@ -1,0 +1,84 @@
+/* read.jspとmock.htmlで使います */
+
+
+
+/* ページ上部のナビゲーション */
+#global-nav {
+	background: #ff00ff;
+	width: 100%;
+	height: 46px;
+}
+
+#global-nav ul {
+	list-style: none;
+}
+
+#global-nav li {
+	display: inline;
+	float: left;
+}
+
+#global-nav li a {
+	text-decoration: none;
+	display: block;
+}
+
+form#search {
+	background: #999999;
+/*	text-align: center;*/
+}
+
+/*
+ #side-thread-list
+ #center
+*/
+#main-container {
+	width: 100%;
+}
+
+#left-side {
+	background: #9999ff;
+	float: left;
+	width: 200px;
+}
+
+/*
+ .thread-item
+*/
+ul#thread-list {
+}
+
+li.thread-item {
+	
+}
+
+#center {
+	background: #00ff00;
+	float: left;
+	width: 800px;
+}
+
+dl.thread {
+	background: #ccff00;
+}
+
+#pager {
+	background: #559911;
+}
+
+#pager ul {
+	text-align: center;
+}
+
+#pager li {
+	background: #ffc867;
+	display: inline-block;
+}
+          
+form#res-post {
+	background: #ff0000;
+}
+
+#null-box {
+	clear: both;
+}
